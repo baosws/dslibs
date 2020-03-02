@@ -12,7 +12,7 @@ import scipy
 ...
 ```
 
-**dslibs** eases your pain with an unified module that installs and imports frequently used data science modules like numpy, pandas, scikit-learn, etc. in just a sec.
+**dslibs** eases your pain with an *unified module* that installs and imports frequently used data science modules like numpy, pandas, scikit-learn, etc. in just a sec.
 
 # Installation
 ```
