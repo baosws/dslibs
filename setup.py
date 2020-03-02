@@ -1,6 +1,6 @@
 import setuptools
 
-install_requires='pandas scikit-learn matplotlib numpy statmodels scipy'.split()
+install_requires='pandas scikit-learn matplotlib numpy statmodels scipy seaborn'.split()
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -10,10 +10,10 @@ setuptools.setup(
     version="0.0.4",
     author="Example Author",
     author_email="baosws@gmail.com",
-    description="An unified package that installs and import frequently used data-science packages",
+    description="A unified module of frequently used data-science modules",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/baosws/dslibs/",
     packages=setuptools.find_packages(),
     install_requires=install_requires,
     classifiers=[

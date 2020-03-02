@@ -1,13 +1,27 @@
-This is an unified package that installs and imports frequently used data science packages like numpy, pandas, scikit-learn, etc.
+Find yourself doing these over and over everytime you start a new project or notebook?
+(image)
+```
+pip3 install pandas scikit-learn matplotlib numpy statmodels scipy seaborn ...
+```
+
+```
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import scipy
+...
+```
+
+**dslibs** eases your pain with an unified module that installs and imports frequently used data science modules like numpy, pandas, scikit-learn, etc. in just a sec.
 
 # Installation
-dslibs is currently availiable on PyPI only:
 ```
 pip install dslibs-baosws
 ```
 
 # Usage
-Just `from dslibs import *`. Now you have your extensively used libraries imported with compact aliases very quickly:
+Just `from dslibs import *`:
 ```
 >>> from dslibs import *
 -------------------------------------------------------
@@ -46,3 +60,4 @@ A  B
 | matplotlib.pyplot         | plt   |
 | statsmodels.api           | sma   |
 | scipy                     | sp    |
+| seaborn                   | sns   |

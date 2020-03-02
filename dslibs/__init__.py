@@ -12,6 +12,7 @@ imports = {
     'matplotlib.pyplot': 'plt',
     'statsmodels.api': 'sma',
     'scipy': 'sp',
+    'seaborn': 'sns',
 }
 
 title = 'Following modules was installed and imported by dslibs:'
