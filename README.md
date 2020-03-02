@@ -1,5 +1,4 @@
 Find yourself doing these over and over again everytime you start a new project or notebook?
-(image)
 ```
 pip3 install pandas scikit-learn matplotlib numpy statmodels scipy seaborn ...
 ```
