@@ -38,7 +38,8 @@ Following modules was installed and imported by dslibs:
 "statsmodels.api" as "sma"
 "scipy" as "sp"
 -------------------------------------------------------
->>> df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]}) # notice that we can use 'pd' now without needing 'import pandas as pd' as usual
+>>>  # now we can use 'pd' without 'import pandas as pd' as usual
+>>> df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 >>> df
 A  B
 0  1  4
