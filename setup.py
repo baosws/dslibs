@@ -1,13 +1,13 @@
 import setuptools
 
-install_requires='pandas scikit-learn matplotlib numpy statmodels scipy seaborn'.split()
+install_requires='pandas scikit-learn matplotlib numpy statsmodels scipy seaborn'.split()
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="dslibs-baosws", # Replace with your own username
-    version="0.0.5",
+    version="0.0.1",
     author="Example Author",
     author_email="baosws@gmail.com",
     description="A unified module of frequently used data-science modules",
