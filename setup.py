@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dslibs-baosws", # Replace with your own username
-    version="0.0.4",
+    version="0.0.5",
     author="Example Author",
     author_email="baosws@gmail.com",
     description="A unified module of frequently used data-science modules",
