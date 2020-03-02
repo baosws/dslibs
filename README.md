@@ -3,7 +3,7 @@ Find yourself doing these over and over everytime you start a new project or not
 ```
 pip3 install pandas scikit-learn matplotlib numpy statmodels scipy seaborn ...
 ```
-
+and
 ```
 import numpy as np
 import pandas as pd
